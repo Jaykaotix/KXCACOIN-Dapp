@@ -1,2 +1,61 @@
-main {
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a, #1a0033);
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff66ff;
+}
+
+.wallet-button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  background: #00ffff;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wallet-button:hover {
+  background: #00cccc;
+}
+
+.token-info {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.music-links {
+  margin-top: 3rem;
+}
+
+.music-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.music-links li {
+  margin: 0.5rem 0;
+}
+
+.music-links a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.bio {
+  margin-top: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 10px;
 }
